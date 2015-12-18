@@ -1,0 +1,22 @@
+{
+  "name": "jsbamboo",
+  "version": "0.1.0",
+  "description": "Reliable redis-backed queuing system with ack/fail semantics and support for multiple languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "keywords": [
+    "redis",
+    "queue"
+  ],
+  "author": "Christopher Kirkos",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "jsonschema": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
